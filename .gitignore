@@ -1,0 +1,45 @@
+# 1. Pliki skompilowane (C++)
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.a
+
+# 2. Wygenerowana dokumentacja Doxygen
+# Ignorujemy całe foldery z plikami tymczasowymi, do repozytorium
+# wrzucamy zazwyczaj tylko plik konfiguracyjny (Doxyfile) i końcowy PDF.
+html/
+latex/
+
+# 3. Tymczasowe pliki kompilatora LaTeX (powstające przy tworzeniu PDF)
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# 4. Środowiska programistyczne (IDE)
+# Visual Studio
+.vs/
+*.user
+*.ncb
+*.suo
+*.pdb
+*.idb
+
+# Visual Studio Code
+.vscode/
+
+# CLion / CMake
+cmake-build-*/
+.idea/
+
+# 5. Pliki systemowe
+.DS_Store
+Thumbs.db
