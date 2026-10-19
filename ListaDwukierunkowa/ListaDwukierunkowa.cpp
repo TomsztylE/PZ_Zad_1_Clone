@@ -47,4 +47,5 @@ int main() {
     cout << "\nPamiec zwolniona, program zakonczony." << endl;
 
     return 0;
+    //Test
 }
